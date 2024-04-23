@@ -15,11 +15,7 @@ export default function Home() {
         <h3 className={styles.text}>
           MAURICE JOYANT AND THE POSTHUMOUS PRINTS
         </h3>
-        <audio
-          controls
-          src="/MAURICE-JOYANT-AND-THE-POSTHUMOUS-PRINTS.mp3"
-          className={styles.audio}
-        >
+        <audio controls src="/MAURICE-JOYANT.mp3" className={styles.audio}>
           Your browser does not support the
           <code>audio</code> element.
         </audio>
